@@ -1,112 +1,78 @@
-<meta charset="UTF-8"/> 
-<style>  
-div {    
-  padding-left: 200px;  
-}  
-</style>  
+<style>
+.dropbtn {
+  background-color: red;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 2;
+  cursor: pointer;
+}
 
-<br></br>
+.dropbtn:hover, .dropbtn:focus {
+  background-color: green;
+}
 
-<font size= "26"; color= "blue"><b><h1 style="padding-left: 300px;"> Previous Year Question Papers </b></font></h1>
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-<br></br>
-<br></br>
-<br></br>
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-  <font style="padding-left: 200px;" size="22";><b> B.COM </b></font>
-    <br></br>
-  <br></br>
+.dropdown-content a {
+  color: black;
+  padding: 15px 160px;
+  text-decoration: none;
+  display: block;
+}
 
-<font size= "16"; style="padding-left: 100px";><b>English</font></b>
+.dropdown a:hover {background-color: white;}
 
-<br></br>
+.show {display: block;}
+</style>
+</head>
+<body>
 
-<font size= "8"; style="padding-left: 120px";> ENGLISH - FINE - TUNE YOUR ENGLISH </font>
-
-<br></br>
-<div>
- <font size="6">
-   <a href="eng/18d.pdf">UNDERGRADUATE(CBCS) EXAMINATION, DECEMBER 2018</a>
-   <br></br>
-    <a href="eng/18d.pdf">    </a>
-      <br></br>
-    <a href="eng/18d.pdf">    </a>
-      <br></br>
-    <a href="eng/18d.pdf">    </a>
-      <br></br>
-    <a href="eng/18d.pdf">    </a>
-      <br></br>
-    <a href="eng/18d.pdf">    </a>
-      
-
-
-</div>
-      <br></br>
-   <br></br>
-  
-
-<font size= "16"; style="padding-left: 100px";><b>Banking and Insurance</font></b>
+<h1 style="padding-left: 300px;"> Previous Year Question Papers </h1>
 
 
 <br></br>
-<div>
- <font size="6">
-  
-    <a href="bk/mod.pdf">MODEL QUESTION PAPER<a>
-      <br></br>
-    <a href="bk/18d.pdf">    </a>
-      <br></br>
-    <a href="bk/18d.pdf">    </a>
-      <br></br>
-    <a href="bk/18d.pdf">    </a>
-      <br></br>
-    <a href="bk/18d.pdf">    </a>
-      
+<br></br>
+<br></br>
+<br></br>
 
-
-      </div>
-      <br></br>
-   <br></br>
-  
-<font size= "16"; style="padding-left: 100px";><b>Financial Accounting </font></b>
-
+<h2 style="padding-left: 300px;"> B.Com (Bachelor of Commerce) </h1>
 
 <br></br>
-<font size= "8"; style="padding-left: 130px";> Financial Accounting-I </font>
 <br></br>
-<div>
-  <font size="6">    
-   <a href="faa/18j.pdf">B.Com. DEGREE (CBCS) EXAMINATION, JAIyUARY/T.EBRUARY 2018</a>
-<br></br>
- <a href="faa/18d.pdf">B.Com, DEGREEE(CBCSIEXAMINATION, DECEMBER 2018</a>
-<br></br>
-     <a href="faa/19n.pdf">B.Com. Degree(CBCS)EXAMINATION, NOVEMBER 2019</a>
-<br></br>
- <a href="faa/21o.pdf">B.COM DEGREE (CBCS) EXAMINATIONS, OCTOBER 2021</a>
 
+
+<h3 style="padding-left: 200px;"> English (Bachelor of Commerce) </h3>
+
+<br></br>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"> Fine-Tune Your English </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="eng/18d">December 2018</a>
+  </div>
 </div>
 
-
-
 <br></br>
-<br></br>
-<font size= "8"; style="padding-left: 120px";> Financial Accounting-II </font>
 
-<br></br>
-<div>
-  <font size="6">
-    <a href="fa/2018.pdf">B.Com DEGREE (C.B.C.S.S.) MODEL EXAMINATION,2018</a>
-    <br></br>
-  <a href="fa/2019.pdf">B.COM DEGREE (CBCS) EXAMINATION, MAY 2019</a>
-   <br></br>
-<a href="fa/20nv.pdf">B.COM DEGREE (CBCS) EXAMINATION, NOVEMBER 2020</a>
-<br></br>
-<a href="fa/21cs.pdf">B.COM DEGREE (CBCS) REGULAR / REAPPEARANCE EXAMINATIONS DEC 2021</a>
-
-
-
-
-
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"> Issue That Matter </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="eng/en1">November 2020</a>
+  </div>
 </div>
 
 
@@ -120,3 +86,133 @@ div {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
