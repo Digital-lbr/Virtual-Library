@@ -1,0 +1,63 @@
+<style>
+div.a{
+	font-size: 70;
+	color: green;
+	}
+
+div.b{
+	font-size: 70;
+	padding-left: 50;
+	}
+
+div.c{	
+	font-size: 50;
+	padding-left: 125; 
+	}
+	
+	div.d{
+	font-size: 70;
+	color: red;
+	}
+
+</style>
+<ol type= "1">
+
+<br></br>
+
+<div class= "a">
+<center><i><h2>Previous Year Question Papers</center></i></div></h2>
+
+<br></br>
+
+<div class= "d">
+<center><h1>Plus One & Two</center></h1></div>
+
+<br></br>
+
+<div class= "b"><b> Available Subjects</b></div>
+
+<br></br>
+
+<div class= "c">
+<li><a href="commerce/int">Commerce</a>
+<br></br>
+
+<li><a href="humanities/int">Humanities</a>
+<br></br>
+
+<li><a href="science/int">Science</a>
+<br></br>
+
+<li><a href="cs/int">Computer Science</a>
+<br></br>
+
+
+
+
+
+
+</div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
