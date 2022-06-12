@@ -1,0 +1,50 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {	
+	min-width: 1000px;
+	width: 100%;
+}
+
+h1{
+	font-size: 500%;
+	text-align: center;
+	margin-top: 50px;
+	color: red;
+}
+
+h3 {
+	font-size: 220%;
+	padding-left: 10%;
+	padding-bottom: 50px;
+	padding-top: 100px;
+	list-style-type: decimal;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+a:hover ,a:focus {
+	font-size: 120%;
+	color: gray;
+}
+
+
+h2 {
+	font-size: 400%;
+	padding-top: 50px;
+	text-align: center;
+	}
+
+pre {
+	font-size: 250%;
+	text-align: center;
+	padding-bottom: 200px;
+	}
+	
+x {
+	font-size: 75%;
+}
