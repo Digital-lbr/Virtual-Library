@@ -1,6 +1,6 @@
 <?php
-	$head = $_POST ["head"];
-	$body = $_POST ["body"];
+	$head = $_GET ["head"];
+	$body = $_GET ["body"];
 	
 	
 	$file = fopen ($head "x.html" ,'w');
