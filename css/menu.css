@@ -1,0 +1,36 @@
+
+
+  body {
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#navbar {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  width:200%;
+  height: 100px;
+}
+
+#navbar a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 50px;
+  text-decoration: none;
+   font-size: 35px;
+
+}
+
+#navbar a:hover {
+  background-color: #777;
+}
+
+
+.cc { margin-right:50px;}
+
