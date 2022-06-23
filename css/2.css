@@ -1,19 +1,37 @@
-	 div.a { 
-	 padding-left: 100px;
-	 padding-right: 50px;
-	 }
+img {
+	width: 250px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  margin-top: 150px;
+}
 	 
-div.b { 
-	padding-left: 220px;
-	 padding-right: 50px;
-	 }
 	
-div.c { 
-	padding-left: 400px;
-	 padding-right: 50px;
-	 }
-	 
-div.d { 
-	padding-left: 320px;
-	 padding-right: 50px;
-	 }
+ body {
+	background-color: LemonChiffon;
+	min-width: 1300px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.a {
+	margin-left: 35px;
+	font-size: 25px;
+}
+
+h1 {
+	margin: 100px 0 150px 35%;
+	color: darkblue;
+	font-size: 40px;
+	font-weight: 900;
+}
+	  
+ul {
+	list-style-type: decimal;
+	margin-left: 100px;
+	font-size: 30px;
+	color: darkblue;
+}
